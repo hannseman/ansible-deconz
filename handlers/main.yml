@@ -1,0 +1,11 @@
+---
+
+- name: restart deconz
+  systemd:
+    name: deconz
+    state: restarted
+    daemon_reload: true
+
+- name: reload systemd
+  systemd:
+    daemon_reload: true

@@ -1,0 +1,9 @@
+# {{ ansible_managed }}
+
+[Service]
+User={{ deconz_user }}
+ExecStart=
+ExecStart={{ deconz_bin }} -platform minimal --http-port={{ deconz_http_port }} --ws-port={{ deconz_websocket_port }}
+
+ProtectSystem=full
+NoNewPrivileges=true

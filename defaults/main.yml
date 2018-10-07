@@ -1,0 +1,11 @@
+---
+
+deconz_dir: /var/deconz
+deconz_wiringpi_version: 2.46
+deconz_wiringpi_deb_url: "https://archive.raspberrypi.org/debian/pool/main/w/wiringpi/wiringpi_{{ deconz_wiringpi_version }}_armhf.deb"
+deconz_version: 2.05.39
+deconz_deb_url: "https://www.dresden-elektronik.de/rpi/deconz/beta/deconz-{{ deconz_version }}-qt5.deb"
+deconz_bin: /usr/bin/deCONZ
+deconz_user: deconz
+deconz_http_port: 8080
+deconz_websocket_port: 8088

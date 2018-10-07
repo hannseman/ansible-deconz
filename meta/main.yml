@@ -1,0 +1,23 @@
+---
+
+galaxy_info:
+  role_name: deconz
+  author: Hannes Ljungberg
+  description: Setup and configure a headless deCONZ installation.
+  license: MIT
+  min_ansible_version: 2.7.0
+  platforms:
+    - name: Debian
+      versions:
+        - stretch
+  galaxy_tags:
+    - deconz
+    - zigbee
+    - rpi
+    - raspberry
+    - pi
+    - homeautomation
+    - smarthome
+    - automation
+
+dependencies: []

@@ -1,0 +1,14 @@
+---
+
+- hosts: localhost
+  become: true
+  gather_facts: false
+  pre_tasks:
+  - name: wait for connection
+    wait_for_connection:
+      timeout: 300
+  - name: update apt cache
+    apt:
+      cache_valid_time: 600
+  roles:
+    - ../../
