@@ -11,6 +11,7 @@
       - libqt5websockets5
       - libqt5widgets5
       - sqlite3
+      - apt-transport-https
     state: present
   tags:
     - deconz
