@@ -39,12 +39,12 @@ deconz_websocket_port: 8088
 Example Playbook
 ----------------
 ```yaml
-    - hosts: servers
-      roles:
-         - hannseman.deconz
-      vars:
-        deconz_wiringpi_version: 2.46
-        deconz_version: 2.05.39
-        deconz_http_port: 8080
-        deconz_websocket_port: 8088
+- hosts: servers
+  roles:
+     - hannseman.deconz
+  vars:
+    deconz_wiringpi_version: 2.46
+    deconz_version: 2.05.39
+    deconz_http_port: 8080
+    deconz_websocket_port: 8088
 ```
