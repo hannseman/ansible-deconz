@@ -1,5 +1,7 @@
-ansible-deconz
-=========
+# ansible-deconz
+
+[![Ansible Role](https://img.shields.io/ansible/role/30394.svg)](https://galaxy.ansible.com/hannseman/deconz) 
+[![Travis (.org)](https://img.shields.io/travis/hannseman/ansible-deconz.svg)](https://travis-ci.com/hannseman/ansible-deconz)
 
 This role will setup and configure a headless [deCONZ](https://github.com/dresden-elektronik/deconz-rest-plugin/) installation. 
 
@@ -14,8 +16,7 @@ rpi_cmdline_config:
   serial: 1
 ```
 
-Role Variables
---------------
+## Variables
 
 ```yaml
 # The user that if running deCOnZ
@@ -36,8 +37,7 @@ deconz_http_port: 8080
 deconz_websocket_port: 8088
 ```
 
-Example Playbook
-----------------
+## Example Playbook
 ```yaml
 - hosts: servers
   roles:
