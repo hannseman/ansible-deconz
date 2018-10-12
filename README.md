@@ -1,7 +1,7 @@
 # ansible-deconz
 
 [![Ansible Role](https://img.shields.io/ansible/role/30394.svg)](https://galaxy.ansible.com/hannseman/deconz) 
-[![Travis (.org)](https://img.shields.io/travis/hannseman/ansible-deconz.svg)](https://travis-ci.com/hannseman/ansible-deconz)
+[![Build Status](https://travis-ci.com/hannseman/ansible-deconz.svg?branch=master)](https://travis-ci.com/hannseman/ansible-deconz)
 
 This role will setup and configure a headless [deCONZ](https://github.com/dresden-elektronik/deconz-rest-plugin/) installation. 
 
